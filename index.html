@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PersonalDriveArchive</title>
+<style>body{max-width:48rem;margin:3rem auto;padding:0 1.25rem;font:18px/1.65 system-ui,sans-serif;color:#192334}a{color:#185abc}h1,h2{line-height:1.25}</style>
+<main>
+<h1>PersonalDriveArchive</h1>
+<p>A personal desktop utility for backing up and archiving the account owner's files to their Google Drive.</p>
+<h2>What the application does</h2>
+<ul>
+<li>Creates encrypted backups of selected personal notes and application data using restic.</li>
+<li>Copies selected completed files to Google Drive in their original format using rclone. These ordinary archive files are not additionally encrypted by this utility.</li>
+<li>Checks storage capacity and verifies transfers and backup restoration.</li>
+</ul>
+<h2>Google Drive access</h2>
+<p>The application requests the <code>drive.file</code> scope. This limits access to files created by the application or explicitly made available to it. Authorization happens through Google's sign-in page.</p>
+<p>The application runs on the owner's computer. This website is informational and has no sign-in, upload form, or application backend. The utility is intended for personal use, with no public registration.</p>
+<p><a href="privacy.html">Privacy policy</a></p>
+</main>
+</html>
+
