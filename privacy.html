@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy policy | PersonalDriveArchive</title>
+<style>body{max-width:48rem;margin:3rem auto;padding:0 1.25rem;font:18px/1.65 system-ui,sans-serif;color:#192334}a{color:#185abc}h1,h2{line-height:1.25}</style>
+<main>
+<p><a href="index.html">PersonalDriveArchive</a></p>
+<h1>Privacy policy</h1>
+<p>Effective date: 24 October 2026.</p>
+<p>PersonalDriveArchive is operated by its account owner for personal backups and file archiving. It runs locally and is not a hosted service for other users.</p>
+<h2>Data accessed and purpose</h2>
+<p>The utility accesses selected file contents, file names, paths, sizes, modification times, checksums, Drive file identifiers, and necessary account and storage-quota metadata. It uses these only to select the intended destination, back up or archive the owner's files, verify transfers, restore backups, and report operational status.</p>
+<p>The requested Google Drive scope is <code>https://www.googleapis.com/auth/drive.file</code>. The utility uses access granted to its application-created or explicitly selected files.</p>
+<h2>Storage and protection</h2>
+<p>Backup and archive content is transferred from the owner's computer to the owner's Google Drive. Restic backup contents are encrypted before upload. Ordinary archive files retain their original format and are not additionally encrypted by this utility. Sharing settings remain under the Google account owner's control.</p>
+<p>OAuth credentials, tokens, and backup passwords are stored locally with restricted Windows permissions; the rclone configuration is encrypted, and local password storage uses Windows DPAPI. Local operational records contain necessary file metadata and verification results. Backup recovery material must be retained separately by the owner.</p>
+<h2>Sharing and use</h2>
+<p>The utility does not sell Google user data or use file contents for advertising or model training. It does not operate a server that receives the owner's backup files or OAuth tokens. Data is used for the backup and archive functions described here.</p>
+<p>PersonalDriveArchive's use of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.</p>
+<h2>Retention, deletion, and revocation</h2>
+<p>The owner controls local and Drive file retention and deletion. Uploaded files remain until the owner deletes them or separately enables a retention policy. The owner can revoke the application's access in their Google Account permissions, stop local scheduled tasks, and remove local credentials. Revoking access does not itself delete previously uploaded files.</p>
+<h2>This informational website</h2>
+<p>These static pages have no forms, tracking scripts, or analytics integrations. The website hosting provider may process ordinary web-access logs under its own privacy policy. No backup contents, credentials, tokens, account email addresses, or local file paths are published on these pages.</p>
+<h2>Questions</h2>
+<p>This is a single-owner personal utility. The account owner manages its local configuration and can use the support contact displayed on the Google OAuth consent screen.</p>
+</main>
+</html>
+
